@@ -275,9 +275,9 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                   id={"typedtext"}
                 >
-                  {
-                    "The sigils resolve into starkly unsettling patterns before your eyes, \ntesting the limits of human perception and comprehension:"
-                  }
+                  {hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "The sigils resolve into starkly unsettling patterns before your eyes, \ntesting the limits of human perception and comprehension:"
+                    : "The sigils resolve into starkly unsettling patterns before your eyes, \ntesting the limits of human perception and comprehension:"}
                 </div>
                 <Reveal
                   data-plasmic-name={"reveal"}
@@ -315,7 +315,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   id={"typedtext2"}
                 >
                   {
-                    "The sigils resolve into starkly unsettling patterns before your eyes, \ntesting the limits of human perception and comprehension:"
+                    "The eldritch symbols seem to writhe and pulsate with an unearthly bioluminescence.\nAs you stare deeper, you feel your grasp on reality start to fray at the edges.\nWhispers of long-forgotten languages tickle the back of your mind."
                   }
                 </div>
               </Stack__>
