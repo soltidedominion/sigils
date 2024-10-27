@@ -221,7 +221,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.link__uFlRe
                     )}
                     component={Link}
-                    href={" x.com/theSIGILS"}
+                    href={"https://x.com/theSIGILS"}
                     platform={"nextjs"}
                     target={"_blank"}
                   >
