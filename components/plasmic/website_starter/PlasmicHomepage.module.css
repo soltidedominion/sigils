@@ -172,6 +172,23 @@
   text-decoration-line: underline;
   min-width: 0;
 }
+.text__fJnbW {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+}
+.link__mxAe {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding-left: 0px;
+  text-align: center;
+  text-decoration-line: underline;
+  min-width: 0;
+}
 .freeBox__uprVh {
   display: flex;
   flex-direction: column;

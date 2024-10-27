@@ -250,6 +250,31 @@ function PlasmicHomepage__RenderFunc(props: {
                   >
                     {"Telegram"}
                   </PlasmicLink__>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fJnbW
+                    )}
+                  >
+                    {"|"}
+                  </div>
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__mxAe
+                    )}
+                    component={Link}
+                    href={
+                      "https://dexscreener.com/solana/6t9py4qv9cm6jnrbyehcgmanijuaklpyt4jkeimin2sp"
+                    }
+                    platform={"nextjs"}
+                    target={"_blank"}
+                  >
+                    {"Dexscreener"}
+                  </PlasmicLink__>
                 </Stack__>
               </div>
               <Stack__
